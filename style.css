@@ -97,6 +97,7 @@ body {
 .header {
   position: relative;
   overflow: hidden;
+  top: -50px;
 }
 
 #yellow-header {
@@ -126,6 +127,18 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 46px;
+}
+
+#header-img {
+  width: 100%;
+  clip-path: polygon(0 0, 100% 20, 100% 80%, 50% 100%, 0 80%);
+}
+
+.wave {
+  transform: scaleX(-1);
+  position: absolute;
+  width: 100%;
+  color: #fff;
 }
 
 .main {
